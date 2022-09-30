@@ -1,7 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
 * {
-  padding: 0;
-  margin: 0;
-  font-family: "Roboto",sans-serif;
+  font-family: Silkscreen;
 }
 
 body {
@@ -13,92 +14,58 @@ body {
 }
 
 .container {
-  max-width: 1400px;
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
   justify-content: center;
 }
 
 header {
-  width: auto;
-  overflow: auto;
-  margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
 }
 
 .logo {
-  float: left;
+    border: #e2f 0.5em solid;
+    background-color: #fff;
+    display: block;
+    box-shadow: #0fe 0.1em 0.1em 0.1em;
+    border-radius: 3em;
+    padding: 0.5em;
 }
 
-.logo h2 {
-  color: #fff;
-  margin-left: 20px;
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2em;
+    margin: 0.3em;
 }
 
-nav {
-  float: right;
+.navbar li {
+    list-style-type: none;
+    display: inline;
 }
 
-nav ul {
-  width: auto;
-  overflow: auto;
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.7em;
+    padding: 0.5em 1em;
+    transition: 0.3s ease-in-out;
 }
 
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  padding: 6px 18px;
-}
-
-nav ul li:hover {
-  border: 0.2px solid #fff;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 18px;
+.navbar a:hover {
+    background-color: #0bf;
+    box-shadow: #142 0.3em 0.5em 0.5em;
 }
 
 .text {
-  margin-top: 18%;
+    margin-top: 3em;
+    font-size: 2em;
+    color: #fdf;
 }
 
-.text h1 {
-  color: #fff;
-  text-align: center;
-  font-size: 40px;
-  font-family: monospace;
-}
-
-.buttons {
-  margin-left: 40%;
-  margin-top: 20px;
-}
-
-button {
-  width: 150px;
-  height: 40px;
-  border: 1px solid #fff;
-  margin-right: 5px;
-}
-
-button a {
-  text-decoration: none;
-  font-size: 16px;
-  color: #000;
-}
-
-.btn-1 {
-  background: #0984e3;
-  border: 1px solid #0984e3;
-}
-
-.btn-1 a {
-  color: #fff;
-}
-
-.btn-2:hover {
-  background: #0984e3;
-  border: 1px solid #0984e3;
-  transition: all 0.0.30s ease-in;
-}
