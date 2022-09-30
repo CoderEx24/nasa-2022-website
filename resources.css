@@ -26,12 +26,26 @@ body {
 	padding: 1.5em;
 }
 
-.main-content {
+#main-container ul {
 	font-size: 1.4em;
 	border: 0.5em orange solid;
 	color: #fef;
 	border-radius: 2em;
 	padding: 1em;
 
+	list-style: none;
 	text-align: justify;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#main-container ul li {
+	margin: 0.3em;
+}
+
+#main-container ul li a {
+	color: #fef;
 }
