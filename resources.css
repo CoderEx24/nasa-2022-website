@@ -5,7 +5,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 120vh;
 
   font-family: "silkscreen";
 }
@@ -19,15 +19,17 @@ body {
 }
 
 .title {
-	font-size: 2.7em;
-	border: 0.5em #fef solid;
+	font-size: 2em;
+	border: 0.5em orange solid;
+	color: #fef;
 	border-radius: 2em;
 	padding: 1.5em;
 }
 
 .main-content {
 	font-size: 1.4em;
-	border: 0.5em #fef groove;
+	border: 0.5em orange solid;
+	color: #fef;
 	border-radius: 2em;
 	padding: 1em;
 
