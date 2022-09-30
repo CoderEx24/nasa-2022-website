@@ -1,5 +1,5 @@
 
-#content {
+.container {
 	background-color: #0ef;
 	font-size: 1.3em;
 	border: 0.5em none;
@@ -10,13 +10,13 @@
 	align-items: center;
 	justify-content: center;
 
+}
+
+.container p {
+	padding: 1em;
 	text-align: justify;
 }
-
-#content p {
-	padding: 1em;
-}
-
+/*
 #inner-container {
 	display: flex;
 	flex-direction: row;
@@ -30,4 +30,4 @@
 	width: 20em;
 	height: auto;
 	padding: 3em;
-}
+}*/
