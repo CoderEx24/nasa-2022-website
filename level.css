@@ -1,7 +1,8 @@
-
 .container {
-	background-color: #0ef;
-	font-size: 1.3em;
+	color: #fef;
+	border: 10em orange solid;
+	border-radius: 2em;
+	font-size: 2em;
 	border: 0.5em none;
 	border-radius: 1em;
 	margin: 2em;
