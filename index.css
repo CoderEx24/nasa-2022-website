@@ -27,10 +27,9 @@ header {
 }
 
 .logo {
-    border: #e2f 0.5em solid;
-    background-color: #fff;
+    font-size: 1.7em;
+    color: #fef;
     display: block;
-    box-shadow: #0fe 0.1em 0.1em 0.1em;
     border-radius: 3em;
     padding: 0.5em;
 }
@@ -65,7 +64,7 @@ header {
 .text {
     margin-top: 3em;
     font-size: 2em;
-    color: #fdf;
+    color: #fef;
 }
 
 #buttons {
@@ -76,16 +75,25 @@ header {
 }
 
 #buttons .button {
-	border: 1em groove #01e;
+	border: 0.3em solid #fef; 
 	border-radius: 2em;
+	font-size: 2.5em;
+	text-decoration: none;
+	display: block;
 
 	padding: 0.7em;
-	margin: 5em;
-	color: white;
+	color: #fdf;
 	transition: 0.3s ease-in-out;
 }
 
+#buttons .outer-border {
+	border: 0.3em solid orange;
+	border-radius: 10em;
+	padding: 0.4em;
+	margin: 2em;
+}
+
 #buttons .button:hover {
-	background-color: #07e;
+	background-color: orange;
 }
 
