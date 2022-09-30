@@ -8,9 +8,10 @@
 		<style type="text/css">
 			
 			body {
-				height: 230vh;
+				height: 300vh;
 			}
-			#inner-container {
+			
+			.inner-container {
 				display: flex;
 				flex-direction: row;
 				align-items: space-between;
@@ -18,11 +19,15 @@
 
 			}
 
-			#inner-container img {
-				float: right;
-				width: 20em;
-				height: auto;
-				padding: 3em;
+			#img1 {
+				width: 500%;
+				height: 500%;
+			}
+
+			#img2 {
+				width: 700%;
+				height: 700%;
+				align-self: center;
 			}
 		</style>
 	</head>
@@ -61,7 +66,7 @@
 					The spacecraft, about the size of a small car, travels directly through the Sun's atmosphere --ultimately to a distance of about 4 million miles from the surface. 
 					Our challenge is to create a way to inform the young audience of this historical moment. 
 				</p>
-				<div id="inner-container">
+				<div class="inner-container">
 				<p>
 					The solution we are planning to work on is about a video game. 
 					This video games walks through the different stages that the probe went through its journey. 
@@ -71,22 +76,27 @@
 					We aim for a creative solution that will teach the user of the game about the probe and its journey from the process of manufacturing until touching the sun in a fun and interactive way. 
 				</p>
 				
-				<img src="home_1.jpg" alt="spacecraft" />
+				<img id="img1" src="home_1.jpg" alt="solar corona" />
 				</div>
-				<p>
-					The game will consist of different stages, each stage is about a different stage of the probe's journey to the sun. 
-					The game uses augmented reality. 
-					This means that the player interacts with the game using hand gestures, 
-					captured using a camera instead of traditional controls. 
-					The other unique element regarding our video game is the story telling aspect, 
-					our game story will be divided into two main plots. 
-					The first stage will be about the manufacturing and preparing Parker Solar Probe, 
-					which will educate the audience about the engineering part of the journey. 
-					The second stage will be about the lunching of the Probe and the challenges it faced outside our planet. 
-					Nevertheless, our solution mechanism will depend mainly on Computer Vision which is considered as a field of Artificial Intelligence. 
-					The libraries we are going to use will be Open CV and MediaPipe. 
-					For the video game itself, Pygame will be used.
-				</p>
+				<div class="inner-container">
+				
+					<img id="img2" src="probe.jpg" alt="probe" />
+					<p>
+						The game will consist of different stages, each stage is about a different stage of the probe's journey to the sun. 
+						The game uses augmented reality. 
+						This means that the player interacts with the game using hand gestures, 
+						captured using a camera instead of traditional controls. 
+						The other unique element regarding our video game is the story telling aspect, 
+						our game story will be divided into two main plots. 
+						The first stage will be about the manufacturing and preparing Parker Solar Probe, 
+						which will educate the audience about the engineering part of the journey. 
+						The second stage will be about the lunching of the Probe and the challenges it faced outside our planet. 
+						Nevertheless, our solution mechanism will depend mainly on Computer Vision which is considered as a field of Artificial Intelligence. 
+						The libraries we are going to use will be Open CV and MediaPipe. 
+						For the video game itself, Pygame will be used.
+					</p>
+	
+				</div>
 			</div>
 
 		</div>
