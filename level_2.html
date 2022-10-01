@@ -7,7 +7,18 @@
 		
 		<style>
 			body {
-				height: 240vh;
+				height: 270vh;
+			}
+
+			#inner-container {
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+			}
+
+			#inner-container img {
+				width: 500%;
+				height: 500%;
 			}
 		</style>
 	</head>
@@ -46,12 +57,15 @@
 				 The spacecraft's speed increases as it approaches the planet and decreases as it leaves the planet.
 				 The speed gained from approaching and the speed lost from leaving is nearly identical, but the spacecraft is affected by the planet's motion around the sun during the maneuver. 
 			</p>
-			<p>
-				 To increase speed, the spacecraft approaches the planet from the direction of the planet's orbital velocity and departs in the opposite direction.
-				 To decrease speed, the spacecraft approaches the planet from a direction away from the planet's orbital velocity – in both types of maneuver the energy transfer compared to the planet's total orbital energy is negligible.
-				 We represented this idea in Level 2: Gravity Test. We made a mission to find the best planet to assist the probe. The simulation is built on the real Newtonian mechanic laws of motion. The player is put to choose from one of the most probable planets that could drive him nearer to the Sun. The game supply the player momentarily with the knowledge and facts from Nasa resources.
-				 <a href="https://www.nasa.gov/gravity-assist" target="_blank">NASA's resource on gravity assist</a>
-			</p>
+			<div id="inner-container">
+				<img src="level2.png" />
+				<p>
+					 To increase speed, the spacecraft approaches the planet from the direction of the planet's orbital velocity and departs in the opposite direction.
+					 To decrease speed, the spacecraft approaches the planet from a direction away from the planet's orbital velocity – in both types of maneuver the energy transfer compared to the planet's total orbital energy is negligible.
+					 We represented this idea in Level 2: Gravity Test. We made a mission to find the best planet to assist the probe. The simulation is built on the real Newtonian mechanic laws of motion. The player is put to choose from one of the most probable planets that could drive him nearer to the Sun. The game supply the player momentarily with the knowledge and facts from Nasa resources.
+					 <a href="https://www.nasa.gov/gravity-assist" target="_blank">NASA's resource on gravity assist</a>
+				</p>
+			</div>
 
 			<iframe width="1200" height="900" src="https://www.youtube.com/embed/cj3GY4Qoee4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</div>
